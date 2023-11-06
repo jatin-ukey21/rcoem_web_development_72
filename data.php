@@ -29,12 +29,12 @@
         $rows = $statement->fetchAll();
     if($rows){
     echo "<center>";
-    echo "<table border='1.5px' cellpadding = '10px' cellspacing='3px'>";
+    echo "<table border='1.5px' cellpadding = '8px' cellspacing='3px' width = '70%'>";
     echo "<tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Gender</th>
-            <th>City</th>
+            <th width = '15%'>Name</th>
+            <th width = '25%'>Email</th>
+            <th width = '15%'>Gender</th>
+            <th width = '15%'>City</th>
           </tr>";
          
       
